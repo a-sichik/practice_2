@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+}
+$main_gold:#B88E2F;
+$main_grey:#616161;
+@mixin main_text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+@import "..//сайт_2/sass/header.scss"; 
+@import "..//сайт_2/sass/banner.scss";
+@import "..//сайт_2/sass/room.scss";
+@import "..//сайт_2/sass/products.scss";
+@import "..//сайт_2/sass/inspiration.scss";
+@import "..//сайт_2/sass/collage.scss";
+@import "..//сайт_2/sass/footer.scss";
+@import "..//сайт_2/sass/last.scss";

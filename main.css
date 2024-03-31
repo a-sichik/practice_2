@@ -1,0 +1,360 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header_logo span {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+
+.header_center a {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  margin-right: 30%;
+}
+
+.header_center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25%;
+}
+
+.header_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_icons img {
+  margin-right: 40%;
+}
+
+.banner {
+  background-image: url("scandinavian-interior-mockup-wall-decal-background 1.png");
+  height: 716px;
+  position: relative;
+}
+
+.banner_orange {
+  background-color: #FFF3E3;
+  max-width: 643px;
+  padding-left: 20px;
+  padding-top: 30px;
+  position: absolute;
+  right: 13%;
+  top: 20%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.banner_overhead {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 3px;
+  margin-top: 5%;
+}
+
+.banner_title {
+  font-size: 52px;
+  font-weight: bold;
+  color: #B88E2F;
+}
+
+.banner_text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  max-width: 546px;
+  text-align: left;
+  margin-right: 20%;
+}
+
+.banner button {
+  background-color: #B88E2F;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 25px 72px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-radius: 7px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 3%;
+  color: #333333;
+  font-size: 40px;
+}
+
+.room .title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.room .text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #666666;
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+  grid-column-gap: 50px;
+  margin-top: 4%;
+  max-width: 1183px;
+}
+
+.room span {
+  font-weight: 600;
+  color: #333333;
+  margin-left: 40%;
+  font-size: 24px;
+}
+
+.images img {
+  margin-right: 1%;
+  margin-bottom: 5%;
+}
+
+.picture {
+  margin-right: 5%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.products {
+  position: relative;
+  max-width: 1236px;
+  margin-bottom: 5%;
+}
+
+.products .title {
+  text-align: center;
+}
+
+.images_products {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.images_products img {
+  margin-right: 1%;
+  margin-bottom: 5%;
+}
+
+.prod {
+  width: 245px;
+  height: 48px;
+  color: #B88E2F;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #B88E2F;
+  background-color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.inspiration {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background-color: #FCF8F3;
+  padding: 2%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+.inspiration .title {
+  max-width: 422px;
+  margin-bottom: 8%;
+}
+
+.inspiration .text {
+  font-size: 16px;
+  color: #616161;
+  max-width: 368px;
+  font-weight: 500;
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.inspiration button {
+  background-color: #B88E2F;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  height: 48px;
+  width: 178px;
+}
+
+.left_column {
+  max-width: 422px;
+  margin-left: 5%;
+}
+
+.image_ins_1 {
+  margin-right: 2%;
+}
+
+.image_ins_1:first-child {
+  margin-left: 5%;
+  margin-left: -10%;
+}
+
+.image_ins_1:last-child {
+  margin-bottom: 5%;
+}
+
+.left_column .title {
+  margin-bottom: 5%;
+}
+
+.collage .overhead {
+  font-weight: 600;
+  color: #616161;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: -3%;
+}
+
+.collage .title {
+  font-weight: bold;
+  color: #333333;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: -3%;
+}
+
+.collage_img {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  margin-bottom: 5%;
+}
+
+.links span {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.links span:hover {
+  color: #B88E2F;
+  cursor: pointer;
+}
+
+.add_info {
+  max-width: 285px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #9F9F9F;
+}
+
+.head {
+  margin-bottom: 10%;
+  font-weight: 500;
+  color: #9F9F9F;
+}
+
+.line:last-child {
+  margin-bottom: 10%;
+}
+
+.line {
+  margin-top: 5%;
+  background-color: #cdcdcd;
+  height: 2px;
+  width: 100%;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  margin-top: 5%;
+}
+
+.info .title {
+  margin-bottom: 15%;
+}
+
+input[type=email] {
+  width: 173px;
+  height: 21px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type=email]::-moz-placeholder {
+  color: #9F9F9F;
+}
+
+input[type=email]::placeholder {
+  color: #9F9F9F;
+}
+
+.subscribe {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin-left: 5%;
+}
+
+.last {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}/*# sourceMappingURL=main.css.map */
